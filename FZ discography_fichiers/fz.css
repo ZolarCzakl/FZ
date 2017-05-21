@@ -1,0 +1,60 @@
+/* FZ lyrics Style Sheet */
+body { color: black; background-color: #ECE9D8}
+.menu { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: smaller; padding: 0.2em 0.6em; margin: 0em; background-color: silver; }
+a { text-decoration: none}
+a:hover { text-decoration: underline}
+.xlk { color: green}
+a.xlk:visited { color: olive}
+a.xlk img { border: green; border-style: solid; border-width: 1px }
+a.xlk:visited img { border: olive; border-style: solid; border-width: 1px }
+img { border-style: none }
+h1 { color: red; margin-bottom: 0em; font-style: italic }
+h2 { margin-bottom: 0 }
+h3 { margin-bottom: 0 }
+h4 { font-size: 1.12em; }
+h5 { font-size: 1em; }
+blockquote { font-size: small; text-align: justify; font-family: Arial, Helvetica, sans-serif; }
+tt { font-size: smaller; font-weight: normal }
+address { font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; margin-top: 2em }
+em { font-style: inherit; text-decoration: underline}
+td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: smaller; padding: 4px 6px; border-width: 1px 1px 0 0; border-style: solid; border-color: silver }
+table { border-width: 0 0 1px 1px; border-style: solid; border-color: silver }
+th { color: #333300; background-color: silver; font-family: Arial, Helvetica, sans-serif; font-size: smaller; padding: 4px 6px; border-width: 1px 1px 0 0; border-style: solid; border-color: silver }
+thead { background-color: silver; text-align: center }
+.news { font-family: Arial, Helvetica, sans-serif; color: teal }
+.notes { font-family: Arial, Helvetica, sans-serif; font-size: smaller; color: #666 }
+.links { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+#links { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+.links h4 { font-size: 1em; font-weight: bold }
+.album { font-style: italic; font-weight: bold; color: maroon }
+.video { font-style: italic; font-weight: bold; color: navy }
+.edition { margin-top: 0em; font-style: italic; font-family: Arial, Helvetica, sans-serif; font-size: smaller; color: gray}
+.author { margin-top: 0em; margin-bottom: 1em; font-style: italic; color: gray; padding-top: 0em }
+.cover a img { border: solid silver 1px }
+.cover a:hover img { border: solid gray 1px }
+.credits { font-family: Arial, Helvetica, sans-serif; font-size: smaller; background-color: white; padding-right: 10px; padding-left: 10px; border: solid silver 1px }
+.quote, .players, .info, .aiwsha, .viwsha { font-size: 0.8em; margin-top: 1em; margin-left: 4em; font-family: Verdana, Arial, Helvetica, sans-serif }
+.info { font-style: italic }
+ul.aiwsha { margin-left: 1em }
+.aiwsha a { font-style: italic; color: maroon }
+ul.viwsha { margin-left: 1em }
+.viwsha a { font-style: italic; color: navy }
+.quote { color: gray }
+.quote a { color: teal; }
+.lyrics { font-size: 1em; margin-bottom: 2em; margin-left: 1em; font-family: Georgia, Times, serif; }
+.char { font-size: small; font-family: Georgia, Times New Roman, Times, serif }
+.vinyl, .OldVersion { color: maroon }
+.cdmix, .NewVersion { color: #666 }
+.vinyl .cdmix, .cdmix .vinyl, .OldVersion .NewVersion, .NewVersion .OldVersion { color: #966 }
+.nocdmix { color: black }
+.screen { font-family: Arial, Helvetica, sans-serif; font-size: 0.9em; font-style: italic; text-align: center }
+.screen i { font-style: normal }
+.date { font-size: smaller; font-style: italic; color: grey }
+p.lyrics { margin-bottom: 0em; margin-left: 0em; border: 1px solid #666; padding-top: 0.5em; padding-right: 1em; padding-bottom: 0.5em; padding-left: 1em; background-color: #FFF; }
+td .char { font-family: Georgia, Times New Roman, Times, serif; font-size: small; }
+time, .time { font-family: monospace; font-weight: normal; font-size: smaller; }
+.FixedFont { font-family: monospace; }
+.track, .item { border-top: thin solid gray; margin-top: 0.5em; padding-top: 0.5em; }
+.saunders {
+	color: #039;
+}

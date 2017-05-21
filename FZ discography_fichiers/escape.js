@@ -1,0 +1,1 @@
+thisPage = window.location.href; function escapeFrames() { if (parent.frames.length >= 1) { window.top.location.href = thisPage; return true; } } escapeFrames(); 
